@@ -61,4 +61,4 @@ Binary: 0000000001000001
 
 ---
 
-Made by [https://github.com/Farnaztr](Farnaz) ❤
+Made by ([Farnaz](https://github.com/Farnaztr)) ❤
