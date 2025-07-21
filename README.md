@@ -1,9 +1,9 @@
-# 🔢 BaseConverter
+# BaseConverter
 
 BaseConverter is a lightweight and simple C++ console application that converts **characters or numbers** to their equivalent representations in:
-- 🧮 Decimal (Base 10)
-- 💡 Binary (Base 2)
-- 🔷 Hexadecimal (Base 16)
+-  Decimal (Base 10)
+-  Binary (Base 2)
+-  Hexadecimal (Base 16)
 
 ---
 
@@ -59,3 +59,6 @@ Binary: 0000000001000001
 
 ```
 
+---
+
+Made by [https://github.com/Farnaztr](Farnaz) ❤
