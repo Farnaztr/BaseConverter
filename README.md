@@ -7,7 +7,7 @@ BaseConverter is a lightweight and simple C++ console application that converts 
 
 ---
 
-## ✨ Features
+## Features
 
 - Supports both numbers and single characters as input
 - Displays decimal, binary (16-bit), and uppercase hexadecimal formats
@@ -16,18 +16,46 @@ BaseConverter is a lightweight and simple C++ console application that converts 
 
 ---
 
-## 📦 Example Usage
+## Example Usage
 
-Input: A
+```bash
+
+Enter a character or a number: A
 
 Decimal: 65
 Hexadecimal: 41
 Binary: 0000000001000001
+```
 
-Input: 25
+---
 
-Decimal: 25
-Hexadecimal: 19
-Binary: 0000000000011001
+## How It Works
 
+1. The user enters an input (either a number or a single character)
+2. The program checks the input type:
+   - If it’s a number → it converts directly
+   - If it’s a character → it uses its ASCII code
+3. Displays the converted values in all three formats
+
+---
+
+## Technologies Used
+
+- C++
+- Standard Libraries:
+  - `<iostream>`
+  - `<bitset>`
+  - `<iomanip>`
+  - `<string>`
+
+---
+
+## 📂 File Structure
+
+```bash
+
+├── BaseConverterPlus.cpp        # The source code
+├── README.md       # This file
+
+```
 
