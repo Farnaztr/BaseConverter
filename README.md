@@ -24,7 +24,7 @@ Enter a character or a number: A
 
 Decimal: 65
 Hexadecimal: 41
-Binary: 0000000001000001
+Binary: 1000001
 ```
 
 ---
