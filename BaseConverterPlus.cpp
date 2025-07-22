@@ -19,8 +19,10 @@ int main()
 	}
 	cout << "Decimal: " << numeric_value << endl;
 	cout << "Hexadecimal: " << hex << uppercase << numeric_value << endl;
-	cout << "Binary: " << bitset<16>(numeric_value) << endl;
+	string binary = bitset<16>(numeric_value).to_string();
+	binary.erase(0, binary.find_first_not_of('0'));
+	if (binary.empty()) binary = "0";
+	cout << "Binary: "<<binary<< endl;
 
 	_getch();
 }
-
